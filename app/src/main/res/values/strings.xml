@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Hari Ketiga</string>
+
+    <string-array name="list_rs">
+        <item> Rs Arifin Achmad</item>
+        <item> Rs Eka</item>
+        <item> Rs Eria Bunda</item>
+        <item> Rs Ibnusina</item>
+        <item> Rs Jiwa Tampan</item>
+
+
+    </string-array>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.blogbasbas.hariketiga">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".activty.SplashScreenActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activty.YoutubeActivity"
+            android:label="Youtube Activity"/>
+        <activity android:name=".activty.MyBrowserActivity"
+            android:label="My Browser Activity"/>
+        <activity android:name=".activty.GetHTMLActivity"
+            android:label="Get Html Activity"/>
+        <activity android:name=".activty.RumahSakitActivity"
+            android:label="List Rumah Sakit"/>
+        <activity android:name=".activty.RsArifinAchmadActivity"
+            android:label="Rs Arifin Ahmad"/>
+        <activity android:name=".activty.RsEkaActivity"
+            android:label="Rs Eka "></activity>
+        <activity android:name=".activty.RsEriaBunda"></activity>
+        <activity android:name=".activty.RsIbnuSinaActivity"></activity>
+        <activity android:name=".activty.RsJiwaTampan"></activity>
+    </application>
+
+</manifest>
